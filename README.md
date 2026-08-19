@@ -2,9 +2,15 @@
 
 De quoi comprendre Atlas — pour demander de l'aide sans ouvrir l'atelier.
 
-**Ce dépôt ne contient aucun code.** Ni scripts, ni assets, ni adresses
-d'écriture — seulement les documents qui expliquent le projet. Le code vit dans
-un dépôt privé.
+**Ce dépôt contient les documents, et UN extrait de code nommé.** Ni assets,
+ni adresses d'écriture, ni clés — seulement ce qui explique le projet, plus le
+magasin et le système nodal, déposés dans `code/` pour être lus. Tout le reste
+du code vit dans un dépôt privé.
+
+Cet extrait a été ajouté le 19/08/2026 à la demande de Sacha : le magasin et son
+système nodal sont une pièce de fond, et les résumer de seconde main revenait à
+en perdre le raisonnement. `code/LISEZ-MOI.md` dit ce qui s'y trouve et ce qui
+en est délibérément absent.
 
 Atlas génère des objets et environnements 3D sous Blender, les transfère vers
 Three.js pour qu'ils soient lisibles dans un navigateur, puis leur donne la
@@ -18,6 +24,9 @@ capacité d'être animés pour des sites internet via Theatre.js.
 | `ETAT.md` | les directions prises, ce qui est fait, ce qui ne l'est pas et **pourquoi** |
 | `INVENTAIRE.md` | ce qu'il y a, entrée par entrée |
 | `VITRINE.md` | ce qu'Atlas sait faire, sans vocabulaire technique |
+| `MAGASIN.md` | pourquoi le magasin existe et comment il est fait |
+| `NOEUDS.md` | la règle qui décide où chaque pièce doit vivre |
+| `code/` | **le code du magasin et du système nodal**, à lire |
 | `MAGASIN.md` | le stockage : objets adressés par leur contenu |
 | `CLAUDE.md` | les règles que suit tout agent qui travaille sur le projet |
 

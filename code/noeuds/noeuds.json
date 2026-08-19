@@ -1,0 +1,4970 @@
+{
+  "_": "ARTEFACT — refait par `node outils/noeuds.mjs`. Ne pas éditer à la main.",
+  "regle": "origineDe(existe, dependDuBrief) — packages/contracts/src/noeud.ts",
+  "noeuds": 173,
+  "liens": 451,
+  "par_origine": {
+    "catalogue": 153,
+    "generer_reutilisable": 16,
+    "generer_unique": 4
+  },
+  "avec_deux_variantes": 78,
+  "masse_geometrique": [
+    "vegetation/jacaranda_tree"
+  ],
+  "familles": {
+    "texture": 56,
+    "matiere": 2,
+    "terrain": 4,
+    "objet": 7,
+    "architecture": 8,
+    "mobilier_urbain": 5,
+    "mobilier_interieur": 5,
+    "humain": 4,
+    "vegetation": 10,
+    "vehicule": 2,
+    "ciel": 9,
+    "climat": 1,
+    "studio": 1,
+    "mouvement": 1,
+    "palette": 1,
+    "police": 2,
+    "transition": 9,
+    "loader": 10,
+    "animation": 1,
+    "composant_web": 14,
+    "shader": 1,
+    "inspiration": 16,
+    "scene": 1,
+    "livrable": 1,
+    "eclairage": 1,
+    "usure": 1
+  },
+  "detail": [
+    {
+      "id": "texture/aerial_grass_rock",
+      "nom": "aerial_grass_rock",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/aerial_grass_rock",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 41810943,
+          "poids": "39.9 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2614469,
+          "poids": "2.5 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/american_walnut_veneer",
+      "nom": "american_walnut_veneer",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/american_walnut_veneer",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 40571126,
+          "poids": "38.7 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2494020,
+          "poids": "2.4 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/asphalt_02",
+      "nom": "asphalt_02",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/asphalt_02",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 49591113,
+          "poids": "47.3 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3404140,
+          "poids": "3.2 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/asphalt_04",
+      "nom": "asphalt_04",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/asphalt_04",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 60685264,
+          "poids": "57.9 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3360766,
+          "poids": "3.2 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/bark_platanus",
+      "nom": "bark_platanus",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/bark_platanus",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 43927285,
+          "poids": "41.9 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3432732,
+          "poids": "3.3 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/bark_willow",
+      "nom": "bark_willow",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/bark_willow",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 55610108,
+          "poids": "53.0 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3987165,
+          "poids": "3.8 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/bicolour_gravel",
+      "nom": "bicolour_gravel",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/bicolour_gravel",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 73642522,
+          "poids": "70.2 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 5286993,
+          "poids": "5.0 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/black_oak_veneer",
+      "nom": "black_oak_veneer",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/black_oak_veneer",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 36649545,
+          "poids": "35.0 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2301772,
+          "poids": "2.2 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/brick_4",
+      "nom": "brick_4",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/brick_4",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 18919865,
+          "poids": "18.0 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1407891,
+          "poids": "1.3 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/brown_leather",
+      "nom": "brown_leather",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/brown_leather",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 34605064,
+          "poids": "33.0 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2833733,
+          "poids": "2.7 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/brown_mud",
+      "nom": "brown_mud",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/brown_mud",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 31956750,
+          "poids": "30.5 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2532011,
+          "poids": "2.4 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/brushed_concrete",
+      "nom": "brushed_concrete",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/brushed_concrete",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 56099407,
+          "poids": "53.5 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3606784,
+          "poids": "3.4 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/castle_wall_slates",
+      "nom": "castle_wall_slates",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/castle_wall_slates",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 40398138,
+          "poids": "38.5 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2849413,
+          "poids": "2.7 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/clay_roof_tiles",
+      "nom": "clay_roof_tiles",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/clay_roof_tiles",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 40076644,
+          "poids": "38.2 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3370730,
+          "poids": "3.2 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/clean_pebbles",
+      "nom": "clean_pebbles",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/clean_pebbles",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 52682680,
+          "poids": "50.2 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 4460117,
+          "poids": "4.3 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/coast_sand_01",
+      "nom": "coast_sand_01",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/coast_sand_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 46331182,
+          "poids": "44.2 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3518180,
+          "poids": "3.4 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/cobblestone_01",
+      "nom": "cobblestone_01",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/cobblestone_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 20136597,
+          "poids": "19.2 Mo",
+          "fichiers": 4
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1559172,
+          "poids": "1.5 Mo",
+          "fichiers": 4
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/concrete_pavement",
+      "nom": "concrete_pavement",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/concrete_pavement",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 62906205,
+          "poids": "60.0 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 4175617,
+          "poids": "4.0 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/corrugated_iron",
+      "nom": "corrugated_iron",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/corrugated_iron",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 34444065,
+          "poids": "32.8 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2396009,
+          "poids": "2.3 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/cuit_boisDeChene",
+      "nom": "cuit_boisDeChene",
+      "famille": "texture",
+      "origine": "generer_reutilisable",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/cuit_boisDeChene",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "texture/cuit_bourreDeCoco",
+      "nom": "cuit_bourreDeCoco",
+      "famille": "texture",
+      "origine": "generer_reutilisable",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/cuit_bourreDeCoco",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "texture/cuit_coqueDeCoco",
+      "nom": "cuit_coqueDeCoco",
+      "famille": "texture",
+      "origine": "generer_reutilisable",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/cuit_coqueDeCoco",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "texture/cuit_duvetDeCoco",
+      "nom": "cuit_duvetDeCoco",
+      "famille": "texture",
+      "origine": "generer_reutilisable",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/cuit_duvetDeCoco",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "texture/cuit_feuilleDeChene",
+      "nom": "cuit_feuilleDeChene",
+      "famille": "texture",
+      "origine": "generer_reutilisable",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/cuit_feuilleDeChene",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "texture/cuit_palmeVerte",
+      "nom": "cuit_palmeVerte",
+      "famille": "texture",
+      "origine": "generer_reutilisable",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/cuit_palmeVerte",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "texture/cuit_stipeDeCocotier",
+      "nom": "cuit_stipeDeCocotier",
+      "famille": "texture",
+      "origine": "generer_reutilisable",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/cuit_stipeDeCocotier",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "texture/curly_teddy_natural",
+      "nom": "curly_teddy_natural",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/curly_teddy_natural",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 36395910,
+          "poids": "34.7 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3012133,
+          "poids": "2.9 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/denim_fabric",
+      "nom": "denim_fabric",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/denim_fabric",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 38079803,
+          "poids": "36.3 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2280628,
+          "poids": "2.2 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/dirty_carpet",
+      "nom": "dirty_carpet",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/dirty_carpet",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 58752828,
+          "poids": "56.0 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 4136350,
+          "poids": "3.9 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/dry_decay_leaves",
+      "nom": "dry_decay_leaves",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/dry_decay_leaves",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 44980685,
+          "poids": "42.9 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3662008,
+          "poids": "3.5 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/fabric_leather_01",
+      "nom": "fabric_leather_01",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/fabric_leather_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 41159870,
+          "poids": "39.3 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2425073,
+          "poids": "2.3 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/forest_floor",
+      "nom": "forest_floor",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/forest_floor",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 69497572,
+          "poids": "66.3 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 4854418,
+          "poids": "4.6 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/granite_tile",
+      "nom": "granite_tile",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/granite_tile",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 43507255,
+          "poids": "41.5 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2809750,
+          "poids": "2.7 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/grey_roof_tiles_02",
+      "nom": "grey_roof_tiles_02",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/grey_roof_tiles_02",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 30994676,
+          "poids": "29.6 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1760943,
+          "poids": "1.7 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/index",
+      "nom": "index",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/index.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "texture/jolcham_oak_bark_01",
+      "nom": "jolcham_oak_bark_01",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/jolcham_oak_bark_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 108386578,
+          "poids": "103.4 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 8196656,
+          "poids": "7.8 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/leafy_grass",
+      "nom": "leafy_grass",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/leafy_grass",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 73989591,
+          "poids": "70.6 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 4971885,
+          "poids": "4.7 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/marble_01",
+      "nom": "marble_01",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/marble_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 12768083,
+          "poids": "12.2 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 782570,
+          "poids": "764 Ko",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/metal_plate",
+      "nom": "metal_plate",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/metal_plate",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 43308544,
+          "poids": "41.3 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3181306,
+          "poids": "3.0 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/mossy_stone_wall",
+      "nom": "mossy_stone_wall",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/mossy_stone_wall",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 53770617,
+          "poids": "51.3 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3843508,
+          "poids": "3.7 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/oak_veneer_01",
+      "nom": "oak_veneer_01",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/oak_veneer_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 51034583,
+          "poids": "48.7 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2452869,
+          "poids": "2.3 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "95 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/old_stone_wall",
+      "nom": "old_stone_wall",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/old_stone_wall",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 42383921,
+          "poids": "40.4 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3162599,
+          "poids": "3.0 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/palm_tree_bark",
+      "nom": "palm_tree_bark",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/palm_tree_bark",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 101893990,
+          "poids": "97.2 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 6778510,
+          "poids": "6.5 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/patio_tiles",
+      "nom": "patio_tiles",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/patio_tiles",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 45669402,
+          "poids": "43.6 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2133611,
+          "poids": "2.0 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "95 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/pine_bark",
+      "nom": "pine_bark",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/pine_bark",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 52720405,
+          "poids": "50.3 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3729953,
+          "poids": "3.6 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/rough_linen",
+      "nom": "rough_linen",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/rough_linen",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 64750122,
+          "poids": "61.8 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 4772243,
+          "poids": "4.6 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/rust_coarse_01",
+      "nom": "rust_coarse_01",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/rust_coarse_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 56726540,
+          "poids": "54.1 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3391730,
+          "poids": "3.2 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/smooth_concrete_floor",
+      "nom": "smooth_concrete_floor",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/smooth_concrete_floor",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 51916625,
+          "poids": "49.5 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2683993,
+          "poids": "2.6 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "95 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/snow_02",
+      "nom": "snow_02",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/snow_02",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 32695433,
+          "poids": "31.2 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1987164,
+          "poids": "1.9 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/teak_veneer",
+      "nom": "teak_veneer",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/teak_veneer",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 41389003,
+          "poids": "39.5 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2481687,
+          "poids": "2.4 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/velour_velvet",
+      "nom": "velour_velvet",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/velour_velvet",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 49429314,
+          "poids": "47.1 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3631878,
+          "poids": "3.5 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/waffle_pique_cotton",
+      "nom": "waffle_pique_cotton",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/waffle_pique_cotton",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 47993007,
+          "poids": "45.8 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3881337,
+          "poids": "3.7 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/white_plaster_02",
+      "nom": "white_plaster_02",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/white_plaster_02",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 42699027,
+          "poids": "40.7 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2287084,
+          "poids": "2.2 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "95 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/white_stucco",
+      "nom": "white_stucco",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/white_stucco",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 39916501,
+          "poids": "38.1 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2935980,
+          "poids": "2.8 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "93 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/wood_table_001",
+      "nom": "wood_table_001",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/wood_table_001",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 17645730,
+          "poids": "16.8 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 938380,
+          "poids": "916 Ko",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "95 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "texture/wool_boucle",
+      "nom": "wool_boucle",
+      "famille": "texture",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/textures/wool_boucle",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 70958928,
+          "poids": "67.7 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 5568882,
+          "poids": "5.3 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "matiere/liste",
+      "nom": "liste",
+      "famille": "matiere",
+      "origine": "catalogue",
+      "entrees": [
+        "texture"
+      ],
+      "chemin": "bibliotheques/matieres/liste.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "matiere/planches",
+      "nom": "planches",
+      "famille": "matiere",
+      "origine": "generer_reutilisable",
+      "entrees": [
+        "texture"
+      ],
+      "chemin": "bibliotheques/matieres/planches",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "terrain/grass_bermuda_01",
+      "nom": "grass_bermuda_01",
+      "famille": "terrain",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/terrain/grass_bermuda_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 15935233,
+          "poids": "15.2 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1450530,
+          "poids": "1.4 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "91 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "terrain/grass_medium_01",
+      "nom": "grass_medium_01",
+      "famille": "terrain",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/terrain/grass_medium_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 25050454,
+          "poids": "23.9 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3065099,
+          "poids": "2.9 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "88 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "terrain/rock_moss_set_01",
+      "nom": "rock_moss_set_01",
+      "famille": "terrain",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/terrain/rock_moss_set_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 8197182,
+          "poids": "7.8 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1937065,
+          "poids": "1.8 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "76 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "terrain/rock_moss_set_02",
+      "nom": "rock_moss_set_02",
+      "famille": "terrain",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/terrain/rock_moss_set_02",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 9482911,
+          "poids": "9.0 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1942240,
+          "poids": "1.9 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "80 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "objet/Camera_01",
+      "nom": "Camera_01",
+      "famille": "objet",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/objets/Camera_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 18957900,
+          "poids": "18.1 Mo",
+          "fichiers": 11
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2439882,
+          "poids": "2.3 Mo",
+          "fichiers": 11
+        },
+        "gain_low_sur_full": "87 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "objet/Television_01",
+      "nom": "Television_01",
+      "famille": "objet",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/objets/Television_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 5052802,
+          "poids": "4.8 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 531294,
+          "poids": "519 Ko",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "89 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "objet/anneau-or",
+      "nom": "anneau-or",
+      "famille": "objet",
+      "origine": "generer_reutilisable",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/objets/anneau-or",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "objet/cassette_player",
+      "nom": "cassette_player",
+      "famille": "objet",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/objets/cassette_player",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 7562358,
+          "poids": "7.2 Mo",
+          "fichiers": 8
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 944682,
+          "poids": "923 Ko",
+          "fichiers": 8
+        },
+        "gain_low_sur_full": "88 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "objet/marble-bust-01",
+      "nom": "marble-bust-01",
+      "famille": "objet",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/objets/marble-bust-01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "objet/power_box_01",
+      "nom": "power_box_01",
+      "famille": "objet",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/objets/power_box_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 30215229,
+          "poids": "28.8 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2725643,
+          "poids": "2.6 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "91 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "objet/sphere-or",
+      "nom": "sphere-or",
+      "famille": "objet",
+      "origine": "generer_reutilisable",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/objets/sphere-or",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "architecture/facades_modulaires",
+      "nom": "facades_modulaires",
+      "famille": "architecture",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere",
+        "objet"
+      ],
+      "chemin": "bibliotheques/architecture/facades_modulaires",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "architecture/immeuble_bureaux_verre",
+      "nom": "immeuble_bureaux_verre",
+      "famille": "architecture",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere",
+        "objet"
+      ],
+      "chemin": "bibliotheques/architecture/immeuble_bureaux_verre",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "architecture/immeuble_mediterraneen",
+      "nom": "immeuble_mediterraneen",
+      "famille": "architecture",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere",
+        "objet"
+      ],
+      "chemin": "bibliotheques/architecture/immeuble_mediterraneen",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "architecture/immeuble_tour",
+      "nom": "immeuble_tour",
+      "famille": "architecture",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere",
+        "objet"
+      ],
+      "chemin": "bibliotheques/architecture/immeuble_tour",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "architecture/maison_medievale_complexe",
+      "nom": "maison_medievale_complexe",
+      "famille": "architecture",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere",
+        "objet"
+      ],
+      "chemin": "bibliotheques/architecture/maison_medievale_complexe",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "architecture/modular_factory_facade",
+      "nom": "modular_factory_facade",
+      "famille": "architecture",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere",
+        "objet"
+      ],
+      "chemin": "bibliotheques/architecture/modular_factory_facade",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 172357005,
+          "poids": "164.4 Mo",
+          "fichiers": 17
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 17626179,
+          "poids": "16.8 Mo",
+          "fichiers": 17
+        },
+        "gain_low_sur_full": "90 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "architecture/tour_bureaux",
+      "nom": "tour_bureaux",
+      "famille": "architecture",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere",
+        "objet"
+      ],
+      "chemin": "bibliotheques/architecture/tour_bureaux",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "architecture/villa_mediterraneenne",
+      "nom": "villa_mediterraneenne",
+      "famille": "architecture",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere",
+        "objet"
+      ],
+      "chemin": "bibliotheques/architecture/villa_mediterraneenne",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "mobilier_urbain/banc",
+      "nom": "banc",
+      "famille": "mobilier_urbain",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/mobilier-urbain/banc",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "mobilier_urbain/concrete_road_barrier",
+      "nom": "concrete_road_barrier",
+      "famille": "mobilier_urbain",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/mobilier-urbain/concrete_road_barrier",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 38689733,
+          "poids": "36.9 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 3750787,
+          "poids": "3.6 Mo",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "90 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "mobilier_urbain/fire_hydrant",
+      "nom": "fire_hydrant",
+      "famille": "mobilier_urbain",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/mobilier-urbain/fire_hydrant",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 49187854,
+          "poids": "46.9 Mo",
+          "fichiers": 8
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 5521480,
+          "poids": "5.3 Mo",
+          "fichiers": 8
+        },
+        "gain_low_sur_full": "89 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "mobilier_urbain/lampadaire",
+      "nom": "lampadaire",
+      "famille": "mobilier_urbain",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/mobilier-urbain/lampadaire",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "mobilier_urbain/rue_modulaire",
+      "nom": "rue_modulaire",
+      "famille": "mobilier_urbain",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/mobilier-urbain/rue_modulaire",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "mobilier_interieur/Sofa_01",
+      "nom": "Sofa_01",
+      "famille": "mobilier_interieur",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/mobilier-interieur/Sofa_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 9953857,
+          "poids": "9.5 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 517935,
+          "poids": "506 Ko",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "95 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "mobilier_interieur/modern_arm_chair_01",
+      "nom": "modern_arm_chair_01",
+      "famille": "mobilier_interieur",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/mobilier-interieur/modern_arm_chair_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 32869679,
+          "poids": "31.3 Mo",
+          "fichiers": 8
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2698032,
+          "poids": "2.6 Mo",
+          "fichiers": 8
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "mobilier_interieur/sofa_02",
+      "nom": "sofa_02",
+      "famille": "mobilier_interieur",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/mobilier-interieur/sofa_02",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 4980744,
+          "poids": "4.8 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 427171,
+          "poids": "417 Ko",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "91 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "mobilier_interieur/sofa_03",
+      "nom": "sofa_03",
+      "famille": "mobilier_interieur",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/mobilier-interieur/sofa_03",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 5351406,
+          "poids": "5.1 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 668033,
+          "poids": "652 Ko",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "88 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "mobilier_interieur/wooden_table_02",
+      "nom": "wooden_table_02",
+      "famille": "mobilier_interieur",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/mobilier-interieur/wooden_table_02",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 8484519,
+          "poids": "8.1 Mo",
+          "fichiers": 5
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 485316,
+          "poids": "474 Ko",
+          "fichiers": 5
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "humain/base-meshes",
+      "nom": "base-meshes",
+      "famille": "humain",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/humain/base-meshes",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "humain/cheveux",
+      "nom": "cheveux",
+      "famille": "humain",
+      "origine": "generer_reutilisable",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/humain/cheveux",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "humain/oeil",
+      "nom": "oeil",
+      "famille": "humain",
+      "origine": "generer_reutilisable",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/humain/oeil",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "humain/peau",
+      "nom": "peau",
+      "famille": "humain",
+      "origine": "generer_reutilisable",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/humain/peau",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "vegetation/arbre_lod_1",
+      "nom": "arbre_lod_1",
+      "famille": "vegetation",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vegetation/arbre_lod_1",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "vegetation/arbre_lod_2",
+      "nom": "arbre_lod_2",
+      "famille": "vegetation",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vegetation/arbre_lod_2",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "vegetation/arbre_lod_3",
+      "nom": "arbre_lod_3",
+      "famille": "vegetation",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vegetation/arbre_lod_3",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "vegetation/cypres",
+      "nom": "cypres",
+      "famille": "vegetation",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vegetation/cypres",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "vegetation/ecorce",
+      "nom": "ecorce",
+      "famille": "vegetation",
+      "origine": "generer_reutilisable",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vegetation/ecorce",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "vegetation/island_tree_02",
+      "nom": "island_tree_02",
+      "famille": "vegetation",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vegetation/island_tree_02",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 101287680,
+          "poids": "96.6 Mo",
+          "fichiers": 11
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 46172406,
+          "poids": "44.0 Mo",
+          "fichiers": 11
+        },
+        "gain_low_sur_full": "54 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "vegetation/jacaranda_tree",
+      "nom": "jacaranda_tree",
+      "famille": "vegetation",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vegetation/jacaranda_tree",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 277591024,
+          "poids": "264.7 Mo",
+          "fichiers": 11
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 214609299,
+          "poids": "204.7 Mo",
+          "fichiers": 11
+        },
+        "gain_low_sur_full": "23 %",
+        "masse_geometrique": true
+      }
+    },
+    {
+      "id": "vegetation/palmier",
+      "nom": "palmier",
+      "famille": "vegetation",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vegetation/palmier",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "vegetation/potted_plant_02",
+      "nom": "potted_plant_02",
+      "famille": "vegetation",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vegetation/potted_plant_02",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 13696611,
+          "poids": "13.1 Mo",
+          "fichiers": 8
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 2634698,
+          "poids": "2.5 Mo",
+          "fichiers": 8
+        },
+        "gain_low_sur_full": "81 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "vegetation/tree_small_02",
+      "nom": "tree_small_02",
+      "famille": "vegetation",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vegetation/tree_small_02",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 160906572,
+          "poids": "153.5 Mo",
+          "fichiers": 11
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 100974143,
+          "poids": "96.3 Mo",
+          "fichiers": 11
+        },
+        "gain_low_sur_full": "37 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "vehicule/dutch_ship_medium",
+      "nom": "dutch_ship_medium",
+      "famille": "vehicule",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vehicules/dutch_ship_medium",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 105086607,
+          "poids": "100.2 Mo",
+          "fichiers": 11
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 8735539,
+          "poids": "8.3 Mo",
+          "fichiers": 11
+        },
+        "gain_low_sur_full": "92 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "vehicule/ship_pinnace",
+      "nom": "ship_pinnace",
+      "famille": "vehicule",
+      "origine": "catalogue",
+      "entrees": [
+        "matiere"
+      ],
+      "chemin": "bibliotheques/vehicules/ship_pinnace",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 222648947,
+          "poids": "212.3 Mo",
+          "fichiers": 23
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 21074557,
+          "poids": "20.1 Mo",
+          "fichiers": 23
+        },
+        "gain_low_sur_full": "91 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "ciel/IndoorEnvironmentHDRI001",
+      "nom": "IndoorEnvironmentHDRI001",
+      "famille": "ciel",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/ciels/IndoorEnvironmentHDRI001",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "ciel/alps_field",
+      "nom": "alps_field",
+      "famille": "ciel",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/ciels/alps_field",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 26520861,
+          "poids": "25.3 Mo",
+          "fichiers": 1
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1614313,
+          "poids": "1.5 Mo",
+          "fichiers": 1
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "ciel/anniversary_lounge",
+      "nom": "anniversary_lounge",
+      "famille": "ciel",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/ciels/anniversary_lounge",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 25940983,
+          "poids": "24.7 Mo",
+          "fichiers": 1
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1612616,
+          "poids": "1.5 Mo",
+          "fichiers": 1
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "ciel/autoshop_01",
+      "nom": "autoshop_01",
+      "famille": "ciel",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/ciels/autoshop_01",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 25734945,
+          "poids": "24.5 Mo",
+          "fichiers": 1
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1622432,
+          "poids": "1.5 Mo",
+          "fichiers": 1
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "ciel/castle_zavelstein_cellar",
+      "nom": "castle_zavelstein_cellar",
+      "famille": "ciel",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/ciels/castle_zavelstein_cellar",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 27038278,
+          "poids": "25.8 Mo",
+          "fichiers": 1
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1713566,
+          "poids": "1.6 Mo",
+          "fichiers": 1
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "ciel/cobblestone_street_night",
+      "nom": "cobblestone_street_night",
+      "famille": "ciel",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/ciels/cobblestone_street_night",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 28170038,
+          "poids": "26.9 Mo",
+          "fichiers": 1
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1760191,
+          "poids": "1.7 Mo",
+          "fichiers": 1
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "ciel/forest_grove",
+      "nom": "forest_grove",
+      "famille": "ciel",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/ciels/forest_grove",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 29836683,
+          "poids": "28.5 Mo",
+          "fichiers": 1
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1922024,
+          "poids": "1.8 Mo",
+          "fichiers": 1
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "ciel/goegap",
+      "nom": "goegap",
+      "famille": "ciel",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/ciels/goegap",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 22384990,
+          "poids": "21.3 Mo",
+          "fichiers": 1
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1361485,
+          "poids": "1.3 Mo",
+          "fichiers": 1
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "ciel/sundowner_overlook",
+      "nom": "sundowner_overlook",
+      "famille": "ciel",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/ciels/sundowner_overlook",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": {
+        "full": {
+          "resolution": "4k",
+          "octets": 27702397,
+          "poids": "26.4 Mo",
+          "fichiers": 1
+        },
+        "low": {
+          "resolution": "1k",
+          "octets": 1677419,
+          "poids": "1.6 Mo",
+          "fichiers": 1
+        },
+        "gain_low_sur_full": "94 %",
+        "masse_geometrique": false
+      }
+    },
+    {
+      "id": "climat/climat",
+      "nom": "climat",
+      "famille": "climat",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/climat/climat.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "studio/*",
+      "nom": "toute pièce de studio",
+      "famille": "studio",
+      "origine": "generer_reutilisable",
+      "entrees": [
+        "ciel"
+      ],
+      "chemin": null,
+      "raison": "la bibliothèque est vide — à générer, puis à ranger pour la fois suivante"
+    },
+    {
+      "id": "mouvement/*",
+      "nom": "toute pièce de mouvement",
+      "famille": "mouvement",
+      "origine": "generer_reutilisable",
+      "entrees": [],
+      "chemin": null,
+      "raison": "la bibliothèque est vide — à générer, puis à ranger pour la fois suivante"
+    },
+    {
+      "id": "palette/palettes",
+      "nom": "palettes",
+      "famille": "palette",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/palettes/palettes.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "police/inter",
+      "nom": "inter",
+      "famille": "police",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/polices/inter",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "police/polices",
+      "nom": "polices",
+      "famille": "police",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/polices/polices.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "transition/transitions-commerce",
+      "nom": "transitions-commerce",
+      "famille": "transition",
+      "origine": "catalogue",
+      "entrees": [
+        "mouvement"
+      ],
+      "chemin": "bibliotheques/transitions/transitions-commerce.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "transition/transitions-corporate",
+      "nom": "transitions-corporate",
+      "famille": "transition",
+      "origine": "catalogue",
+      "entrees": [
+        "mouvement"
+      ],
+      "chemin": "bibliotheques/transitions/transitions-corporate.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "transition/transitions-culture",
+      "nom": "transitions-culture",
+      "famille": "transition",
+      "origine": "catalogue",
+      "entrees": [
+        "mouvement"
+      ],
+      "chemin": "bibliotheques/transitions/transitions-culture.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "transition/transitions-immobilier",
+      "nom": "transitions-immobilier",
+      "famille": "transition",
+      "origine": "catalogue",
+      "entrees": [
+        "mouvement"
+      ],
+      "chemin": "bibliotheques/transitions/transitions-immobilier.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "transition/transitions-luxe",
+      "nom": "transitions-luxe",
+      "famille": "transition",
+      "origine": "catalogue",
+      "entrees": [
+        "mouvement"
+      ],
+      "chemin": "bibliotheques/transitions/transitions-luxe.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "transition/transitions-sante",
+      "nom": "transitions-sante",
+      "famille": "transition",
+      "origine": "catalogue",
+      "entrees": [
+        "mouvement"
+      ],
+      "chemin": "bibliotheques/transitions/transitions-sante.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "transition/transitions-spectacle",
+      "nom": "transitions-spectacle",
+      "famille": "transition",
+      "origine": "catalogue",
+      "entrees": [
+        "mouvement"
+      ],
+      "chemin": "bibliotheques/transitions/transitions-spectacle.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "transition/transitions-technologie",
+      "nom": "transitions-technologie",
+      "famille": "transition",
+      "origine": "catalogue",
+      "entrees": [
+        "mouvement"
+      ],
+      "chemin": "bibliotheques/transitions/transitions-technologie.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "transition/transitions-web",
+      "nom": "transitions-web",
+      "famille": "transition",
+      "origine": "catalogue",
+      "entrees": [
+        "mouvement"
+      ],
+      "chemin": "bibliotheques/transitions/transitions-web.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "loader/loaders-commerce",
+      "nom": "loaders-commerce",
+      "famille": "loader",
+      "origine": "catalogue",
+      "entrees": [
+        "animation"
+      ],
+      "chemin": "bibliotheques/loaders/loaders-commerce.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "loader/loaders-corporate",
+      "nom": "loaders-corporate",
+      "famille": "loader",
+      "origine": "catalogue",
+      "entrees": [
+        "animation"
+      ],
+      "chemin": "bibliotheques/loaders/loaders-corporate.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "loader/loaders-culture",
+      "nom": "loaders-culture",
+      "famille": "loader",
+      "origine": "catalogue",
+      "entrees": [
+        "animation"
+      ],
+      "chemin": "bibliotheques/loaders/loaders-culture.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "loader/loaders-immobilier",
+      "nom": "loaders-immobilier",
+      "famille": "loader",
+      "origine": "catalogue",
+      "entrees": [
+        "animation"
+      ],
+      "chemin": "bibliotheques/loaders/loaders-immobilier.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "loader/loaders-luxe",
+      "nom": "loaders-luxe",
+      "famille": "loader",
+      "origine": "catalogue",
+      "entrees": [
+        "animation"
+      ],
+      "chemin": "bibliotheques/loaders/loaders-luxe.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "loader/loaders-restauration",
+      "nom": "loaders-restauration",
+      "famille": "loader",
+      "origine": "catalogue",
+      "entrees": [
+        "animation"
+      ],
+      "chemin": "bibliotheques/loaders/loaders-restauration.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "loader/loaders-sante",
+      "nom": "loaders-sante",
+      "famille": "loader",
+      "origine": "catalogue",
+      "entrees": [
+        "animation"
+      ],
+      "chemin": "bibliotheques/loaders/loaders-sante.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "loader/loaders-spectacle",
+      "nom": "loaders-spectacle",
+      "famille": "loader",
+      "origine": "catalogue",
+      "entrees": [
+        "animation"
+      ],
+      "chemin": "bibliotheques/loaders/loaders-spectacle.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "loader/loaders-technologie",
+      "nom": "loaders-technologie",
+      "famille": "loader",
+      "origine": "catalogue",
+      "entrees": [
+        "animation"
+      ],
+      "chemin": "bibliotheques/loaders/loaders-technologie.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "loader/loaders-web",
+      "nom": "loaders-web",
+      "famille": "loader",
+      "origine": "catalogue",
+      "entrees": [
+        "animation"
+      ],
+      "chemin": "bibliotheques/loaders/loaders-web.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "animation/animations",
+      "nom": "animations",
+      "famille": "animation",
+      "origine": "catalogue",
+      "entrees": [
+        "mouvement"
+      ],
+      "chemin": "bibliotheques/animations/animations.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/accordeons-web",
+      "nom": "accordeons-web",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/accordeons-web.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/boutons-web",
+      "nom": "boutons-web",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/boutons-web.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/cards-web",
+      "nom": "cards-web",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/cards-web.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/components-raw",
+      "nom": "components-raw",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/components-raw.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/composants-cadence",
+      "nom": "composants-cadence",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/composants-cadence.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/composants-classement",
+      "nom": "composants-classement",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/composants-classement.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/composants-diagnostic",
+      "nom": "composants-diagnostic",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/composants-diagnostic.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/composants-fiches",
+      "nom": "composants-fiches",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/composants-fiches.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/composants-images",
+      "nom": "composants-images",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/composants-images.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/composants-notes",
+      "nom": "composants-notes",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/composants-notes.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/composants-rangement",
+      "nom": "composants-rangement",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/composants-rangement.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/composants-retouches",
+      "nom": "composants-retouches",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/composants-retouches.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/defilements-web",
+      "nom": "defilements-web",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/defilements-web.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "composant_web/pointeurs-web",
+      "nom": "pointeurs-web",
+      "famille": "composant_web",
+      "origine": "catalogue",
+      "entrees": [
+        "palette",
+        "police",
+        "animation"
+      ],
+      "chemin": "bibliotheques/composants-web/pointeurs-web.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "shader/shaders-web",
+      "nom": "shaders-web",
+      "famille": "shader",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/shaders/shaders-web.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/active-theory",
+      "nom": "active-theory",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/active-theory",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/aman",
+      "nom": "aman",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/aman",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/apple-produit",
+      "nom": "apple-produit",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/apple-produit",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/bruno-simon",
+      "nom": "bruno-simon",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/bruno-simon",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/cheval-blanc",
+      "nom": "cheval-blanc",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/cheval-blanc",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/hermes",
+      "nom": "hermes",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/hermes",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/index",
+      "nom": "index",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/index.json",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/kinfolk",
+      "nom": "kinfolk",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/kinfolk",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/linear",
+      "nom": "linear",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/linear",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/locomotive",
+      "nom": "locomotive",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/locomotive",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/lusion",
+      "nom": "lusion",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/lusion",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/obys",
+      "nom": "obys",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/obys",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/resn",
+      "nom": "resn",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/resn",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/six-senses",
+      "nom": "six-senses",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/six-senses",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/stripe",
+      "nom": "stripe",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/stripe",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "inspiration/studio-feixen",
+      "nom": "studio-feixen",
+      "famille": "inspiration",
+      "origine": "catalogue",
+      "entrees": [],
+      "chemin": "bibliotheques/inspiration/studio-feixen",
+      "raison": "la pièce est sur le disque, dans sa bibliothèque",
+      "variantes": null
+    },
+    {
+      "id": "scene/*",
+      "nom": "toute scene",
+      "famille": "scene",
+      "origine": "generer_unique",
+      "entrees": [
+        "terrain",
+        "objet",
+        "architecture",
+        "mobilier_urbain",
+        "mobilier_interieur",
+        "humain",
+        "vegetation",
+        "vehicule",
+        "ciel",
+        "climat",
+        "studio"
+      ],
+      "chemin": null,
+      "raison": "la disposition d'une scène tient au brief : elle ne se range pas"
+    },
+    {
+      "id": "livrable/*",
+      "nom": "toute livrable",
+      "famille": "livrable",
+      "origine": "generer_unique",
+      "entrees": [
+        "scene",
+        "composant_web",
+        "transition",
+        "loader",
+        "shader"
+      ],
+      "chemin": null,
+      "raison": "le site livré est le projet lui-même"
+    },
+    {
+      "id": "eclairage/*",
+      "nom": "toute eclairage",
+      "famille": "eclairage",
+      "origine": "generer_unique",
+      "entrees": [
+        "ciel",
+        "scene"
+      ],
+      "chemin": null,
+      "raison": "le soleil et l'ombre sont mesurés dans le ciel de cette scène — un autre ciel, un autre soleil"
+    },
+    {
+      "id": "usure/*",
+      "nom": "toute usure",
+      "famille": "usure",
+      "origine": "generer_unique",
+      "entrees": [
+        "terrain",
+        "matiere",
+        "scene"
+      ],
+      "chemin": null,
+      "raison": "la trace d'un objet sur son sol dépend du couple : quelle pièce, quel terrain"
+    }
+  ],
+  "arcs": [
+    {
+      "de": "texture/aerial_grass_rock",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/american_walnut_veneer",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/asphalt_02",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/asphalt_04",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/bark_platanus",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/bark_willow",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/bicolour_gravel",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/black_oak_veneer",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/brick_4",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/brown_leather",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/brown_mud",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/brushed_concrete",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/castle_wall_slates",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/clay_roof_tiles",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/clean_pebbles",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/coast_sand_01",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/cobblestone_01",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/concrete_pavement",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/corrugated_iron",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/cuit_boisDeChene",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/cuit_bourreDeCoco",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/cuit_coqueDeCoco",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/cuit_duvetDeCoco",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/cuit_feuilleDeChene",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/cuit_palmeVerte",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/cuit_stipeDeCocotier",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/curly_teddy_natural",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/denim_fabric",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/dirty_carpet",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/dry_decay_leaves",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/fabric_leather_01",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/forest_floor",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/granite_tile",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/grey_roof_tiles_02",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/index",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/jolcham_oak_bark_01",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/leafy_grass",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/marble_01",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/metal_plate",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/mossy_stone_wall",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/oak_veneer_01",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/old_stone_wall",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/palm_tree_bark",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/patio_tiles",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/pine_bark",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/rough_linen",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/rust_coarse_01",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/smooth_concrete_floor",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/snow_02",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/teak_veneer",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/velour_velvet",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/waffle_pique_cotton",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/white_plaster_02",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/white_stucco",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/wood_table_001",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/wool_boucle",
+      "vers": "matiere/liste"
+    },
+    {
+      "de": "texture/aerial_grass_rock",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/american_walnut_veneer",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/asphalt_02",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/asphalt_04",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/bark_platanus",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/bark_willow",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/bicolour_gravel",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/black_oak_veneer",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/brick_4",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/brown_leather",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/brown_mud",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/brushed_concrete",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/castle_wall_slates",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/clay_roof_tiles",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/clean_pebbles",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/coast_sand_01",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/cobblestone_01",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/concrete_pavement",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/corrugated_iron",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/cuit_boisDeChene",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/cuit_bourreDeCoco",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/cuit_coqueDeCoco",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/cuit_duvetDeCoco",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/cuit_feuilleDeChene",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/cuit_palmeVerte",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/cuit_stipeDeCocotier",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/curly_teddy_natural",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/denim_fabric",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/dirty_carpet",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/dry_decay_leaves",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/fabric_leather_01",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/forest_floor",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/granite_tile",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/grey_roof_tiles_02",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/index",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/jolcham_oak_bark_01",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/leafy_grass",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/marble_01",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/metal_plate",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/mossy_stone_wall",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/oak_veneer_01",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/old_stone_wall",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/palm_tree_bark",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/patio_tiles",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/pine_bark",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/rough_linen",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/rust_coarse_01",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/smooth_concrete_floor",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/snow_02",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/teak_veneer",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/velour_velvet",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/waffle_pique_cotton",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/white_plaster_02",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/white_stucco",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/wood_table_001",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "texture/wool_boucle",
+      "vers": "matiere/planches"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "terrain/grass_bermuda_01"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "terrain/grass_bermuda_01"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "terrain/grass_medium_01"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "terrain/grass_medium_01"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "terrain/rock_moss_set_01"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "terrain/rock_moss_set_01"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "terrain/rock_moss_set_02"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "terrain/rock_moss_set_02"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "objet/Camera_01"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "objet/Camera_01"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "objet/Television_01"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "objet/Television_01"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "objet/anneau-or"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "objet/anneau-or"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "objet/cassette_player"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "objet/cassette_player"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "objet/marble-bust-01"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "objet/marble-bust-01"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "objet/power_box_01"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "objet/power_box_01"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "objet/sphere-or"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "objet/sphere-or"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "architecture/facades_modulaires"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "architecture/facades_modulaires"
+    },
+    {
+      "de": "objet/Camera_01",
+      "vers": "architecture/facades_modulaires"
+    },
+    {
+      "de": "objet/Television_01",
+      "vers": "architecture/facades_modulaires"
+    },
+    {
+      "de": "objet/anneau-or",
+      "vers": "architecture/facades_modulaires"
+    },
+    {
+      "de": "objet/cassette_player",
+      "vers": "architecture/facades_modulaires"
+    },
+    {
+      "de": "objet/marble-bust-01",
+      "vers": "architecture/facades_modulaires"
+    },
+    {
+      "de": "objet/power_box_01",
+      "vers": "architecture/facades_modulaires"
+    },
+    {
+      "de": "objet/sphere-or",
+      "vers": "architecture/facades_modulaires"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "architecture/immeuble_bureaux_verre"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "architecture/immeuble_bureaux_verre"
+    },
+    {
+      "de": "objet/Camera_01",
+      "vers": "architecture/immeuble_bureaux_verre"
+    },
+    {
+      "de": "objet/Television_01",
+      "vers": "architecture/immeuble_bureaux_verre"
+    },
+    {
+      "de": "objet/anneau-or",
+      "vers": "architecture/immeuble_bureaux_verre"
+    },
+    {
+      "de": "objet/cassette_player",
+      "vers": "architecture/immeuble_bureaux_verre"
+    },
+    {
+      "de": "objet/marble-bust-01",
+      "vers": "architecture/immeuble_bureaux_verre"
+    },
+    {
+      "de": "objet/power_box_01",
+      "vers": "architecture/immeuble_bureaux_verre"
+    },
+    {
+      "de": "objet/sphere-or",
+      "vers": "architecture/immeuble_bureaux_verre"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "architecture/immeuble_mediterraneen"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "architecture/immeuble_mediterraneen"
+    },
+    {
+      "de": "objet/Camera_01",
+      "vers": "architecture/immeuble_mediterraneen"
+    },
+    {
+      "de": "objet/Television_01",
+      "vers": "architecture/immeuble_mediterraneen"
+    },
+    {
+      "de": "objet/anneau-or",
+      "vers": "architecture/immeuble_mediterraneen"
+    },
+    {
+      "de": "objet/cassette_player",
+      "vers": "architecture/immeuble_mediterraneen"
+    },
+    {
+      "de": "objet/marble-bust-01",
+      "vers": "architecture/immeuble_mediterraneen"
+    },
+    {
+      "de": "objet/power_box_01",
+      "vers": "architecture/immeuble_mediterraneen"
+    },
+    {
+      "de": "objet/sphere-or",
+      "vers": "architecture/immeuble_mediterraneen"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "architecture/immeuble_tour"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "architecture/immeuble_tour"
+    },
+    {
+      "de": "objet/Camera_01",
+      "vers": "architecture/immeuble_tour"
+    },
+    {
+      "de": "objet/Television_01",
+      "vers": "architecture/immeuble_tour"
+    },
+    {
+      "de": "objet/anneau-or",
+      "vers": "architecture/immeuble_tour"
+    },
+    {
+      "de": "objet/cassette_player",
+      "vers": "architecture/immeuble_tour"
+    },
+    {
+      "de": "objet/marble-bust-01",
+      "vers": "architecture/immeuble_tour"
+    },
+    {
+      "de": "objet/power_box_01",
+      "vers": "architecture/immeuble_tour"
+    },
+    {
+      "de": "objet/sphere-or",
+      "vers": "architecture/immeuble_tour"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "architecture/maison_medievale_complexe"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "architecture/maison_medievale_complexe"
+    },
+    {
+      "de": "objet/Camera_01",
+      "vers": "architecture/maison_medievale_complexe"
+    },
+    {
+      "de": "objet/Television_01",
+      "vers": "architecture/maison_medievale_complexe"
+    },
+    {
+      "de": "objet/anneau-or",
+      "vers": "architecture/maison_medievale_complexe"
+    },
+    {
+      "de": "objet/cassette_player",
+      "vers": "architecture/maison_medievale_complexe"
+    },
+    {
+      "de": "objet/marble-bust-01",
+      "vers": "architecture/maison_medievale_complexe"
+    },
+    {
+      "de": "objet/power_box_01",
+      "vers": "architecture/maison_medievale_complexe"
+    },
+    {
+      "de": "objet/sphere-or",
+      "vers": "architecture/maison_medievale_complexe"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "architecture/modular_factory_facade"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "architecture/modular_factory_facade"
+    },
+    {
+      "de": "objet/Camera_01",
+      "vers": "architecture/modular_factory_facade"
+    },
+    {
+      "de": "objet/Television_01",
+      "vers": "architecture/modular_factory_facade"
+    },
+    {
+      "de": "objet/anneau-or",
+      "vers": "architecture/modular_factory_facade"
+    },
+    {
+      "de": "objet/cassette_player",
+      "vers": "architecture/modular_factory_facade"
+    },
+    {
+      "de": "objet/marble-bust-01",
+      "vers": "architecture/modular_factory_facade"
+    },
+    {
+      "de": "objet/power_box_01",
+      "vers": "architecture/modular_factory_facade"
+    },
+    {
+      "de": "objet/sphere-or",
+      "vers": "architecture/modular_factory_facade"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "architecture/tour_bureaux"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "architecture/tour_bureaux"
+    },
+    {
+      "de": "objet/Camera_01",
+      "vers": "architecture/tour_bureaux"
+    },
+    {
+      "de": "objet/Television_01",
+      "vers": "architecture/tour_bureaux"
+    },
+    {
+      "de": "objet/anneau-or",
+      "vers": "architecture/tour_bureaux"
+    },
+    {
+      "de": "objet/cassette_player",
+      "vers": "architecture/tour_bureaux"
+    },
+    {
+      "de": "objet/marble-bust-01",
+      "vers": "architecture/tour_bureaux"
+    },
+    {
+      "de": "objet/power_box_01",
+      "vers": "architecture/tour_bureaux"
+    },
+    {
+      "de": "objet/sphere-or",
+      "vers": "architecture/tour_bureaux"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "architecture/villa_mediterraneenne"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "architecture/villa_mediterraneenne"
+    },
+    {
+      "de": "objet/Camera_01",
+      "vers": "architecture/villa_mediterraneenne"
+    },
+    {
+      "de": "objet/Television_01",
+      "vers": "architecture/villa_mediterraneenne"
+    },
+    {
+      "de": "objet/anneau-or",
+      "vers": "architecture/villa_mediterraneenne"
+    },
+    {
+      "de": "objet/cassette_player",
+      "vers": "architecture/villa_mediterraneenne"
+    },
+    {
+      "de": "objet/marble-bust-01",
+      "vers": "architecture/villa_mediterraneenne"
+    },
+    {
+      "de": "objet/power_box_01",
+      "vers": "architecture/villa_mediterraneenne"
+    },
+    {
+      "de": "objet/sphere-or",
+      "vers": "architecture/villa_mediterraneenne"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "mobilier_urbain/banc"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "mobilier_urbain/banc"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "mobilier_urbain/concrete_road_barrier"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "mobilier_urbain/concrete_road_barrier"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "mobilier_urbain/fire_hydrant"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "mobilier_urbain/fire_hydrant"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "mobilier_urbain/lampadaire"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "mobilier_urbain/lampadaire"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "mobilier_urbain/rue_modulaire"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "mobilier_urbain/rue_modulaire"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "mobilier_interieur/Sofa_01"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "mobilier_interieur/Sofa_01"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "mobilier_interieur/modern_arm_chair_01"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "mobilier_interieur/modern_arm_chair_01"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "mobilier_interieur/sofa_02"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "mobilier_interieur/sofa_02"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "mobilier_interieur/sofa_03"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "mobilier_interieur/sofa_03"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "mobilier_interieur/wooden_table_02"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "mobilier_interieur/wooden_table_02"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "humain/base-meshes"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "humain/base-meshes"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "humain/cheveux"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "humain/cheveux"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "humain/oeil"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "humain/oeil"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "humain/peau"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "humain/peau"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vegetation/arbre_lod_1"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vegetation/arbre_lod_1"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vegetation/arbre_lod_2"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vegetation/arbre_lod_2"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vegetation/arbre_lod_3"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vegetation/arbre_lod_3"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vegetation/cypres"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vegetation/cypres"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vegetation/ecorce"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vegetation/ecorce"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vegetation/island_tree_02"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vegetation/island_tree_02"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vegetation/jacaranda_tree"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vegetation/jacaranda_tree"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vegetation/palmier"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vegetation/palmier"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vegetation/potted_plant_02"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vegetation/potted_plant_02"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vegetation/tree_small_02"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vegetation/tree_small_02"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vehicule/dutch_ship_medium"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vehicule/dutch_ship_medium"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "vehicule/ship_pinnace"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "vehicule/ship_pinnace"
+    },
+    {
+      "de": "ciel/IndoorEnvironmentHDRI001",
+      "vers": "studio/*"
+    },
+    {
+      "de": "ciel/alps_field",
+      "vers": "studio/*"
+    },
+    {
+      "de": "ciel/anniversary_lounge",
+      "vers": "studio/*"
+    },
+    {
+      "de": "ciel/autoshop_01",
+      "vers": "studio/*"
+    },
+    {
+      "de": "ciel/castle_zavelstein_cellar",
+      "vers": "studio/*"
+    },
+    {
+      "de": "ciel/cobblestone_street_night",
+      "vers": "studio/*"
+    },
+    {
+      "de": "ciel/forest_grove",
+      "vers": "studio/*"
+    },
+    {
+      "de": "ciel/goegap",
+      "vers": "studio/*"
+    },
+    {
+      "de": "ciel/sundowner_overlook",
+      "vers": "studio/*"
+    },
+    {
+      "de": "mouvement/*",
+      "vers": "transition/transitions-commerce"
+    },
+    {
+      "de": "mouvement/*",
+      "vers": "transition/transitions-corporate"
+    },
+    {
+      "de": "mouvement/*",
+      "vers": "transition/transitions-culture"
+    },
+    {
+      "de": "mouvement/*",
+      "vers": "transition/transitions-immobilier"
+    },
+    {
+      "de": "mouvement/*",
+      "vers": "transition/transitions-luxe"
+    },
+    {
+      "de": "mouvement/*",
+      "vers": "transition/transitions-sante"
+    },
+    {
+      "de": "mouvement/*",
+      "vers": "transition/transitions-spectacle"
+    },
+    {
+      "de": "mouvement/*",
+      "vers": "transition/transitions-technologie"
+    },
+    {
+      "de": "mouvement/*",
+      "vers": "transition/transitions-web"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "loader/loaders-commerce"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "loader/loaders-corporate"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "loader/loaders-culture"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "loader/loaders-immobilier"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "loader/loaders-luxe"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "loader/loaders-restauration"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "loader/loaders-sante"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "loader/loaders-spectacle"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "loader/loaders-technologie"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "loader/loaders-web"
+    },
+    {
+      "de": "mouvement/*",
+      "vers": "animation/animations"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/accordeons-web"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/accordeons-web"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/accordeons-web"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/accordeons-web"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/boutons-web"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/boutons-web"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/boutons-web"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/boutons-web"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/cards-web"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/cards-web"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/cards-web"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/cards-web"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/components-raw"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/components-raw"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/components-raw"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/components-raw"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/composants-cadence"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/composants-cadence"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/composants-cadence"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/composants-cadence"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/composants-classement"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/composants-classement"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/composants-classement"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/composants-classement"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/composants-diagnostic"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/composants-diagnostic"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/composants-diagnostic"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/composants-diagnostic"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/composants-fiches"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/composants-fiches"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/composants-fiches"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/composants-fiches"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/composants-images"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/composants-images"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/composants-images"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/composants-images"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/composants-notes"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/composants-notes"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/composants-notes"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/composants-notes"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/composants-rangement"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/composants-rangement"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/composants-rangement"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/composants-rangement"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/composants-retouches"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/composants-retouches"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/composants-retouches"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/composants-retouches"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/defilements-web"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/defilements-web"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/defilements-web"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/defilements-web"
+    },
+    {
+      "de": "palette/palettes",
+      "vers": "composant_web/pointeurs-web"
+    },
+    {
+      "de": "police/inter",
+      "vers": "composant_web/pointeurs-web"
+    },
+    {
+      "de": "police/polices",
+      "vers": "composant_web/pointeurs-web"
+    },
+    {
+      "de": "animation/animations",
+      "vers": "composant_web/pointeurs-web"
+    },
+    {
+      "de": "terrain/grass_bermuda_01",
+      "vers": "scene/*"
+    },
+    {
+      "de": "terrain/grass_medium_01",
+      "vers": "scene/*"
+    },
+    {
+      "de": "terrain/rock_moss_set_01",
+      "vers": "scene/*"
+    },
+    {
+      "de": "terrain/rock_moss_set_02",
+      "vers": "scene/*"
+    },
+    {
+      "de": "objet/Camera_01",
+      "vers": "scene/*"
+    },
+    {
+      "de": "objet/Television_01",
+      "vers": "scene/*"
+    },
+    {
+      "de": "objet/anneau-or",
+      "vers": "scene/*"
+    },
+    {
+      "de": "objet/cassette_player",
+      "vers": "scene/*"
+    },
+    {
+      "de": "objet/marble-bust-01",
+      "vers": "scene/*"
+    },
+    {
+      "de": "objet/power_box_01",
+      "vers": "scene/*"
+    },
+    {
+      "de": "objet/sphere-or",
+      "vers": "scene/*"
+    },
+    {
+      "de": "architecture/facades_modulaires",
+      "vers": "scene/*"
+    },
+    {
+      "de": "architecture/immeuble_bureaux_verre",
+      "vers": "scene/*"
+    },
+    {
+      "de": "architecture/immeuble_mediterraneen",
+      "vers": "scene/*"
+    },
+    {
+      "de": "architecture/immeuble_tour",
+      "vers": "scene/*"
+    },
+    {
+      "de": "architecture/maison_medievale_complexe",
+      "vers": "scene/*"
+    },
+    {
+      "de": "architecture/modular_factory_facade",
+      "vers": "scene/*"
+    },
+    {
+      "de": "architecture/tour_bureaux",
+      "vers": "scene/*"
+    },
+    {
+      "de": "architecture/villa_mediterraneenne",
+      "vers": "scene/*"
+    },
+    {
+      "de": "mobilier_urbain/banc",
+      "vers": "scene/*"
+    },
+    {
+      "de": "mobilier_urbain/concrete_road_barrier",
+      "vers": "scene/*"
+    },
+    {
+      "de": "mobilier_urbain/fire_hydrant",
+      "vers": "scene/*"
+    },
+    {
+      "de": "mobilier_urbain/lampadaire",
+      "vers": "scene/*"
+    },
+    {
+      "de": "mobilier_urbain/rue_modulaire",
+      "vers": "scene/*"
+    },
+    {
+      "de": "mobilier_interieur/Sofa_01",
+      "vers": "scene/*"
+    },
+    {
+      "de": "mobilier_interieur/modern_arm_chair_01",
+      "vers": "scene/*"
+    },
+    {
+      "de": "mobilier_interieur/sofa_02",
+      "vers": "scene/*"
+    },
+    {
+      "de": "mobilier_interieur/sofa_03",
+      "vers": "scene/*"
+    },
+    {
+      "de": "mobilier_interieur/wooden_table_02",
+      "vers": "scene/*"
+    },
+    {
+      "de": "humain/base-meshes",
+      "vers": "scene/*"
+    },
+    {
+      "de": "humain/cheveux",
+      "vers": "scene/*"
+    },
+    {
+      "de": "humain/oeil",
+      "vers": "scene/*"
+    },
+    {
+      "de": "humain/peau",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vegetation/arbre_lod_1",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vegetation/arbre_lod_2",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vegetation/arbre_lod_3",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vegetation/cypres",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vegetation/ecorce",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vegetation/island_tree_02",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vegetation/jacaranda_tree",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vegetation/palmier",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vegetation/potted_plant_02",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vegetation/tree_small_02",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vehicule/dutch_ship_medium",
+      "vers": "scene/*"
+    },
+    {
+      "de": "vehicule/ship_pinnace",
+      "vers": "scene/*"
+    },
+    {
+      "de": "ciel/IndoorEnvironmentHDRI001",
+      "vers": "scene/*"
+    },
+    {
+      "de": "ciel/alps_field",
+      "vers": "scene/*"
+    },
+    {
+      "de": "ciel/anniversary_lounge",
+      "vers": "scene/*"
+    },
+    {
+      "de": "ciel/autoshop_01",
+      "vers": "scene/*"
+    },
+    {
+      "de": "ciel/castle_zavelstein_cellar",
+      "vers": "scene/*"
+    },
+    {
+      "de": "ciel/cobblestone_street_night",
+      "vers": "scene/*"
+    },
+    {
+      "de": "ciel/forest_grove",
+      "vers": "scene/*"
+    },
+    {
+      "de": "ciel/goegap",
+      "vers": "scene/*"
+    },
+    {
+      "de": "ciel/sundowner_overlook",
+      "vers": "scene/*"
+    },
+    {
+      "de": "climat/climat",
+      "vers": "scene/*"
+    },
+    {
+      "de": "studio/*",
+      "vers": "scene/*"
+    },
+    {
+      "de": "scene/*",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/accordeons-web",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/boutons-web",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/cards-web",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/components-raw",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/composants-cadence",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/composants-classement",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/composants-diagnostic",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/composants-fiches",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/composants-images",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/composants-notes",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/composants-rangement",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/composants-retouches",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/defilements-web",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "composant_web/pointeurs-web",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "transition/transitions-commerce",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "transition/transitions-corporate",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "transition/transitions-culture",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "transition/transitions-immobilier",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "transition/transitions-luxe",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "transition/transitions-sante",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "transition/transitions-spectacle",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "transition/transitions-technologie",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "transition/transitions-web",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "loader/loaders-commerce",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "loader/loaders-corporate",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "loader/loaders-culture",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "loader/loaders-immobilier",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "loader/loaders-luxe",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "loader/loaders-restauration",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "loader/loaders-sante",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "loader/loaders-spectacle",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "loader/loaders-technologie",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "loader/loaders-web",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "shader/shaders-web",
+      "vers": "livrable/*"
+    },
+    {
+      "de": "ciel/IndoorEnvironmentHDRI001",
+      "vers": "eclairage/*"
+    },
+    {
+      "de": "ciel/alps_field",
+      "vers": "eclairage/*"
+    },
+    {
+      "de": "ciel/anniversary_lounge",
+      "vers": "eclairage/*"
+    },
+    {
+      "de": "ciel/autoshop_01",
+      "vers": "eclairage/*"
+    },
+    {
+      "de": "ciel/castle_zavelstein_cellar",
+      "vers": "eclairage/*"
+    },
+    {
+      "de": "ciel/cobblestone_street_night",
+      "vers": "eclairage/*"
+    },
+    {
+      "de": "ciel/forest_grove",
+      "vers": "eclairage/*"
+    },
+    {
+      "de": "ciel/goegap",
+      "vers": "eclairage/*"
+    },
+    {
+      "de": "ciel/sundowner_overlook",
+      "vers": "eclairage/*"
+    },
+    {
+      "de": "scene/*",
+      "vers": "eclairage/*"
+    },
+    {
+      "de": "terrain/grass_bermuda_01",
+      "vers": "usure/*"
+    },
+    {
+      "de": "terrain/grass_medium_01",
+      "vers": "usure/*"
+    },
+    {
+      "de": "terrain/rock_moss_set_01",
+      "vers": "usure/*"
+    },
+    {
+      "de": "terrain/rock_moss_set_02",
+      "vers": "usure/*"
+    },
+    {
+      "de": "matiere/liste",
+      "vers": "usure/*"
+    },
+    {
+      "de": "matiere/planches",
+      "vers": "usure/*"
+    },
+    {
+      "de": "scene/*",
+      "vers": "usure/*"
+    }
+  ]
+}
